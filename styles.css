@@ -5,3 +5,27 @@
     font-size: 50px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
+
+.link {
+    border: 2px solid pink;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.pizza {
+    background-color: red;
+    color: seagreen;
+    text-align: left;
+}
+
+.tacos {
+    background-color: antiquewhite;
+    color: brown;
+    text-align: center;
+}
+
+.bbq {
+    background-color: orange;
+    color: yellow;
+    text-align: right;
+}

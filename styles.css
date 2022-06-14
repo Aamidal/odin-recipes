@@ -1,6 +1,12 @@
+* {
+    background-color:rgba(181, 251, 227, 0.981);
+    cursor: url('flag.cur'), auto;
+}
+
 .title {
     background-color: aquamarine;
     color: fuchsia;
+    text-align: center;
     font-weight: bold;
     font-size: 50px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
@@ -11,21 +17,32 @@
     font-size: 20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+.link a {
+    display: inline-block;
+    background-color: lemonchiffon;
+    padding: 20px;
+    margin: 15px;
+}
+
 
 .pizza {
-    background-color: red;
+    background-color: rgb(255, 154, 86);
     color: seagreen;
     text-align: left;
 }
 
 .tacos {
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     color: brown;
     text-align: center;
 }
 
 .bbq {
-    background-color: orange;
+    background-color: rgb(209, 98, 164);
     color: yellow;
     text-align: right;
+}
+
+.link a:hover {
+    background-color: rgb(255, 199, 160);
 }
